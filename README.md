@@ -102,6 +102,12 @@ We've integrated a powerful reward system to grow our community:
 - **Mora Coins:** Earn digital currency by watching ads or inviting friends.
 - **Dynamic Referrals:** Every user gets a unique, encrypted link to invite others.
 - **Legal Rewards:** Redeem your coins for premium legal templates and professional advice.
+قسم التجارة
+:### 🛡️ Secure Trade & Trust Score
+Every seller on **Mora-app** has a **Trust Score**:
+- **Verified Sellers:** Profiles linked to successful trades and positive feedback.
+- **Consumer Rights:** Automated reminders for buyers about their 7-day return rights under Moroccan Law.
+- **Fair Rating:** Ratings influence the visibility of products in the marketplace.
 
 
 
