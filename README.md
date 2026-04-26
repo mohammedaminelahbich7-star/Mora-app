@@ -1,2 +1,47 @@
-# Mora-app
-​"A unified marketplace for buying products, real estate, vehicles, and electronics, plus booking hotels and paying bills—all in one app."
+# Mora-app 📱 | المنصة الذكية المتكاملة
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Security: Law 09-08](https://img.shields.io/badge/Security-Law_09--08-blue)](https://www.cndp.ma/)
+
+**Mora-app** هو تطبيق فائق (Super App) يجمع بين حلول التجارة الإلكترونية، الخدمات العقارية، والذكاء الاصطناعي القانوني في منصة واحدة آمنة وموثوقة.
+
+---
+
+## ✨ المميزات الرئيسية (Key Features)
+
+* **🛒 التجارة الذكية:** متجر متكامل لبيع المنتجات، المركبات، والإلكترونيات.
+* **🏠 العقارات الرقمية:** منصة لعرض وطلب العقارات مع نظام توثيق مبدئي.
+* **⚖️ المساعد القانوني (AI Legal Engine):** محرك ذكاء اصطناعي يقدم استشارات قانونية استناداً إلى القانون المغربي (قانون الالتزامات والعقود، القانون 67.12).
+* **💳 نظام الدفع المتطور:** دعم كامل للمدفوعات الرقمية وبوابات الدفع الحديثة مع جاهزية للربط بـ **Pi Network**.
+
+---
+
+## 🔒 الأمان والخصوصية (Security & Compliance)
+
+نحن نضع الخصوصية في مقدمة أولوياتنا:
+* **تشفير البيانات:** جميع بيانات المستخدمين مشفرة ببروتوكول **AES-256** (راجع ملف `security-config.js`).
+* **الامتثال القانوني:** التطبيق متوافق تماماً مع **القانون رقم 09.08** المغربي المتعلق بحماية المعطيات الشخصية.
+
+---
+
+## 🛠️ البناء التقني (Tech Stack)
+
+* **Frontend:** Android (Java/XML) - واجهات عصرية بلمسة Material Design 3.
+* **Backend:** Node.js / JavaScript.
+* **Logic:** AI-Driven Legal Analysis.
+* **License:** MIT License.
+
+---
+
+## 🚀 كيفية البدء
+
+يمكنك استكشاف المشروع عبر الرابط المباشر:
+🔗 [mora-app-six.vercel.app](https://mora-app-six.vercel.app)
+
+---
+
+## 👨‍💻 المطور
+**Mohammed Amin** - مطور برمجيات وطالب في القانون الخاص.
+
+---
+*تم تطوير هذا المشروع برؤية تدمج بين التكنولوجيا والقانون لتسهيل الحياة اليومية.*
