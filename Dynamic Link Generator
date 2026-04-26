@@ -1,0 +1,30 @@
+/**
+ * Mora-app Dynamic Referral System
+ * وظيفة الملف: توليد روابط فريدة وتتبع المكافآت
+ */
+
+const MoraReferral = {
+    // الرابط الأساسي للتطبيق (Vercel)
+    appUrl: "https://mora-app-six.vercel.app",
+
+    // دالة إنشاء رابط مخصص للمستخدم
+    generateInviteLink: function(userName, userId) {
+        // تشفير معرف المستخدم لضمان الأمان
+        const encodedId = btoa(userId); 
+        const inviteLink = `${this.appUrl}/signup?ref=${encodedId}`;
+        
+        console.log(`تم إنشاء رابط خاص لـ ${userName}: ${inviteLink}`);
+        return inviteLink;
+    },
+
+    // دالة منح المكافأة (Mora Coins)
+    grantReward: function(referrerId) {
+        const rewardAmount = 50; // مكافأة الإحالة
+        console.log(`إضافة ${rewardAmount} عملة للمستخدم صاحب المعرف: ${referrerId}`);
+        // هنا يتم تحديث قاعدة البيانات التي أنشأناها سابقاً
+        return true;
+    }
+};
+
+// مثال: توليد رابط لمحمد أمين
+const myLink = MoraReferral.generateInviteLink("Mohammed Amin", "User_8829");
