@@ -1,3 +1,9 @@
+## 🛒 The Unified Marketplace
+Mora-app is more than just an app; it's a giant digital souk:
+- **Global Listings:** Buy and sell electronics, cars, and home appliances.
+- **Smart Logistics:** Integrated tracking and secure delivery options.
+- **Pi-Enabled Commerce:** The first marketplace in Morocco to support transactions using Pi GCV pricing.
+- **Buyer Protection:** Your funds are held securely until you receive and verify your item.
 # Mora-app 📱 | المنصة الذكية المتكاملة
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
