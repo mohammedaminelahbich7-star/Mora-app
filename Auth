@@ -1,0 +1,12 @@
+async function authUser() {
+    try {
+        const scopes = ['payments', 'username'];
+        const auth = await Pi.authenticate(scopes, onIncompletePaymentFound);
+        console.log("تم الربط بنجاح مع المستخدم: " + auth.user.username);
+    } catch (err) {
+        console.error("فشل الربط بالدومين، تأكد من فتحه عبر Pi Browser.");
+    }
+}
+
+// استدعاء الدالة عند تحميل الصفحة
+authUser();
