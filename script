@@ -1,0 +1,13 @@
+// تهيئة تطبيق Pi وربطه بالدومين الموثق
+Pi.init({ 
+    version: "2.0", 
+    sandbox: false // قم بتغييرها إلى false بمجرد تفعيل الدومين رسمياً
+});
+
+// إعدادات الربط بالدومين
+const appConfig = {
+    domain: "mora-app-six.vercel.app",
+    onIncompletePaymentFound: (payment) => {
+        console.log("هناك عملية دفع معلقة على هذا الدومين: ", payment);
+    }
+};
