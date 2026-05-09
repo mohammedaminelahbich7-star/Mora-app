@@ -1,0 +1,27 @@
+// دالة لتسجيل دخول المستخدم باستخدام Pi SDK
+async function loginToPi() {
+    try {
+        // 1. طلب الموافقة من المستخدم وتحديد البيانات المطلوبة (المعرف والاسم)
+        const scopes = ['username', 'payments'];
+        
+        // 2. دالة التعامل مع رمز التحقق (Auth Token)
+        function onIncompletePaymentFound(payment) {
+            console.log("هناك عملية دفع معلقة:", payment);
+        };
+
+        const auth = await Pi.authenticate(scopes, onIncompletePaymentFound);
+        
+        console.log(`مرحباً ${auth.user.username}!`);
+        
+        // 3. عرض اسم المستخدم في واجهة التطبيق
+        // تأكد من وجود عنصر في الـ HTML يحمل id="username-display"
+        document.getElementById('username-display').innerText = auth.user.username;
+        
+        // يمكنك هنا إرسال auth.accessToken إلى السيرفر الخاص بك (Node.js) للتحقق من هويته برمجياً
+    } catch (err) {
+        console.error("فشل تسجيل الدخول:", err);
+    }
+}
+
+// تشغيل الدالة عند تحميل الصفحة
+window.onload = loginToPi;
